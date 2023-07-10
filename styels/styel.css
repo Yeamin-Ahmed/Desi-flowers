@@ -1,0 +1,71 @@
+*{padding: 0px;
+margin: 0px;}
+/* font styel */
+* {
+    font-family: 'Lato', sans-serif;
+}
+/* header */
+.banner {
+    display: flex;
+     
+    flex-shrink: 0;
+    color: #222222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+
+    width: 1920px;
+    height: 500px;
+    flex-shrink: 0;
+    align-items: top;
+    justify-content: space-around;
+    background-color: rgba(229, 84, 115, 0.10);
+    
+}
+.sub-title-line{
+    color: #12111170;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+display: flex;
+width: 634px;
+flex-direction: column;
+flex-shrink: 0;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+.btn-shop-now{
+    display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+    border-radius: 8px;
+    background: #E55473; 
+    color: #fff8f8;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+border-radius: 20px;
+border-style: none;
+hover: background-color=" green";
+}
+.btn-shop-now:hover {
+    background-color: #6b6b6b;
+  }
+.banner-content {
+    max-width: 600px;
+    padding-top: 40px
+}
+
+.banner .profile-pic {
+    width: 550px;
+height: 500px;
+flex-shrink: 0;
+}
