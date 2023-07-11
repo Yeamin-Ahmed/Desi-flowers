@@ -23,7 +23,7 @@
   flex-shrink: 0;
   align-items: top;
   justify-content: space-around;
-  background-color: rgba(229, 84, 115, 0.1);
+  background-color: rgba(245, 138, 161, 0.518);
 }
 .sub-title-line {
   color: #12111170;
@@ -159,7 +159,7 @@
     flex-shrink: 0;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba(243, 129, 154, 0.179);
+    background-color: rgba(255, 130, 157, 0.186);
   }
   .sub-title-line-2 {
     color: #12111170;
@@ -203,8 +203,42 @@
     padding-top: 40px;
   }
   
-  .profile-pic {
-    width: 550px;
-    height: 500px;
-    flex-shrink: 0;
-  }
+  
+  /* insta styles */
+  .section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+
+#insta-desc {
+    margin-top: 20px;
+    padding: 30px 150px;
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+
+.insta-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.post-insta {
+    padding: 30px ;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+   
+}
+
+
