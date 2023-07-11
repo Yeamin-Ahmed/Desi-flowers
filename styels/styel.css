@@ -213,7 +213,7 @@
     margin-top: 80px;
 }
 
-#insta-desc {
+.section-description {
     margin-top: 20px;
     padding: 30px 150px;
     color: rgba(39, 39, 39, 0.60);
@@ -242,3 +242,53 @@ line-height: 30px;
 }
 
 
+
+.subc{
+    background-image: url('../Flower Asset/Rectangle\ 9.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-top:10px;
+    margin-bottom: 25px;
+    margin-left: 800px;
+    padding: 18px 55px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border-radius: 10;
+    width: 50%;
+    align-items: center;
+justify-content: center;
+}
+
+
+
+.btn-e-signup-now {
+    display: flex;
+    padding: 20px 43px;
+    align-items: flex;
+    gap: 10px;
+    border-radius: 8px;
+    background: #e55473;
+    color: #fff8f8;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 800px;
+  position: center;
+   
+   
+  }
+  .btn-e-signup-now:hover{
+    background-color: #000000;}
+    .pp{
+        display: flex;
+    }
