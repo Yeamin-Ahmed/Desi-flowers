@@ -205,7 +205,8 @@
   
   
   /* insta styles */
-  .section-title {
+  .section-title{
+    
     color: #181818;
     text-align: center;
     font-size: 45px;
@@ -247,6 +248,7 @@ line-height: 30px;
     background-image: url('../Flower Asset/Rectangle\ 9.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 150px;
 }
 
 .contact input[type="text"], .contact input[type="email"],
@@ -254,8 +256,8 @@ textarea {
     display: block;
     margin-top:10px;
     margin-bottom: 25px;
-    margin-left: 800px;
-    padding: 18px 55px;
+    margin-left: 600px;
+    padding: 18px 85px;
     color: #757575;
     border-radius: 5px;
     background: #FFF;
@@ -284,7 +286,8 @@ justify-content: center;
     border-style: none;
     margin-left: 800px;
   position: center;
-   
+  
+  margin-bottom: 10px;
    
   }
   .btn-e-signup-now:hover{
@@ -292,3 +295,36 @@ justify-content: center;
     .pp{
         display: flex;
     }
+    footer{
+        background-color: #000000;
+        color: #ffffff;
+        padding: 200px;
+    }
+    .footer-container{
+        text-align: center;
+        
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px;
+        border-bottom: 1px solid gray;
+    }
+    .footer-title{
+    padding-bottom: 50px;
+
+font-size: 68px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    }
+    .copy{
+        color: rgba(255, 255, 255, 0.40);
+        text-align: center;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    padding-left: 40px;
+margin-top: 50px;}
