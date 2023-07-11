@@ -1,143 +1,210 @@
-*{padding: 0px;
-margin: 0px;}
+* {
+  padding: 0px;
+  margin: 0px;
+}
 /* font styel */
 * {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 /* header */
 .banner {
-    display: flex;
-     
-    flex-shrink: 0;
-    color: #222222;
-    font-family: Lato;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+  display: flex;
 
+  flex-shrink: 0;
+  color: #222222;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 
-    width: 1920px;
-    height: 500px;
-    flex-shrink: 0;
-    align-items: top;
-    justify-content: space-around;
-    background-color: rgba(229, 84, 115, 0.10);
-    
+  width: 1920px;
+  height: 500px;
+  flex-shrink: 0;
+  align-items: top;
+  justify-content: space-around;
+  background-color: rgba(229, 84, 115, 0.1);
 }
-.sub-title-line{
-    color: #12111170;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-display: flex;
-width: 634px;
-flex-direction: column;
-flex-shrink: 0;
-padding-top: 40px;
-padding-bottom: 40px;
+.sub-title-line {
+  color: #12111170;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  display: flex;
+  width: 634px;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-.btn-shop-now{
-    display: inline-flex;
-padding: 20px 43px;
-align-items: flex-start;
-gap: 10px;
-    border-radius: 8px;
-    background: #E55473; 
-    color: #fff8f8;
-font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal; 
-border-radius: 20px;
-border-style: none;
-hover: background-color=" green";
+.btn-shop-now {
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff8f8;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 20px;
+  border-style: none;
+  
 }
 .btn-shop-now:hover {
-    background-color: #6b6b6b;
-  }
+  background-color: #6b6b6b;
+}
 .banner-content {
-    max-width: 600px;
-    padding-top: 40px
+  max-width: 600px;
+  padding-top: 40px;
 }
 
 .profile-pic {
-    width: 550px;
-height: 500px;
-flex-shrink: 0;
+  width: 550px;
+  height: 500px;
+  flex-shrink: 0;
 }
-
-
-
-
 
 /* main */
-.pick-the-flower{
-    text-align: center;
-    color: #000000;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
+.pick-the-flower {
+  text-align: center;
+  color: #000000;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
-#ft-flower{
-    padding-top: 40px;
-    color: #00000071;
-text-align: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+#ft-flower {
+  padding-top: 40px;
+  color: #00000071;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 }
 .pic-cont {
-    display: flex;
-    gap: 44px;
+  display: flex;
+  gap: 44px;
 
-    padding-top: 30px;
-    justify-content: center;
-    align-items: center;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+#pic-box {
+  padding-top: 130px;
+  width: 334px;
+  height: 189px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: #b8709b73;
+}
+
+#pic-box-1 {
+  padding-top: 130px;
+  width: 334px;
+  height: 189px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: #4cd3ee73;
+}
+#pic-box-2 {
+  padding-top: 130px;
+  width: 334px;
+  height: 189px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: #fcfd8c73;
+}
+.buy-flower {
+  width: 235px;
+  height: 188px;
+  justify-content: center;
+}
+
+
+
+
+/* 2nd banner */
+.banner-2 {
+    margin-top: 140px;
+   
+    display: flex;
+  
+    flex-shrink: 0;
     color: #272727;
-    text-align: center;
-    font-size: 24px;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  
+    width: 1920px;
+    height: 500px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(229, 84, 115, 0.1);
+  }
+  .sub-title-line-2 {
+    color: #12111170;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #off{
+    color:#E55473
+  }
+  .btn-signup-now {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #e55473;
+    color: #fff8f8;
+    font-family: Lato;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 35px;
-    text-decoration-line: underline;
-    }
-#pic-box{
-   
-    padding-top:130px ;
-    width: 334px;
-    height: 189px;
+    line-height: normal;
+    border-radius: 10px;
+    border-style: none;
+  
+  }
+  .btn-signup-now:hover {
+    background-color: #6b6b6b;
+  }
+  .banner-content {
+    max-width: 600px;
+    padding-top: 40px;
+  }
+  
+  .profile-pic {
+    width: 550px;
+    height: 500px;
     flex-shrink: 0;
-    border-radius: 300px 300px 0px 0px;
-    background: #b8709b73;
-}
-
-#pic-box-1{
-     padding-top:130px ;
-    width: 334px;
-    height: 189px;
-    flex-shrink: 0;
-    border-radius: 300px 300px 0px 0px;
-    background: #4cd3ee73;
-}
-#pic-box-2{
-   
-    padding-top:130px ;
-    width: 334px;
-    height: 189px;
-    flex-shrink: 0;
-    border-radius: 300px 300px 0px 0px;
-    background: #fcfd8c73;
-}
-.buy-flower{
-    width:235px;
-    height: 188px;
-    justify-content: center;
-}
+  }
